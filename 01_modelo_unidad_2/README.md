@@ -1,7 +1,7 @@
 **EVOLUCIÓN DE LA UNIDAD 2.**
 
 1. Se agregó "*FACT_DEVOLUCIONES*". Grano: una devolución de una línea de venta.
-Se agregó porque "devoluciones por talla, color, producto y motivo" no se podía responder, romper "motivo" en FACT_VENTAS rompía el grano.
+Se agregó porque "devoluciones por talla, color, producto y motivo" no se podía responder, poner "motivo" en FACT_VENTAS rompía el grano.
 
 2. Se agregó "*DIM_MOTIVO_DEVOLUCION*". Dimensión con "*motivo_key*".
 Para evitar el mismo motivo de las devoluciones escrito de formas diferentes.
