@@ -18,3 +18,12 @@ Para filtrar online contra click & collect sin comparar texto.
 6. "*FACT_VENTAS*", "*costo_inicial*" y "*margen_total*". El margen nunca puede quedar desincronizado.
 7. "*FACT_VENTAS*" y "*estado_venta*". Para excluir cancelaciones de la rentabilidad.
 8. "*FACT_VENTAS*", "*sucursal_venta_key*" y "*sucursal_entrega_key*". Para identificar la sucursal de cada venta y entrega.
+
+**Grano: FACT_VENTAS**
+Una fila representa una variante de producto vendida de producto (talla y/o color) vendida dentro de una línea de una orden de compra.
+
+El cliente exige analizar las ventas por talla, color, colección y/o categoría, no solo por producto general, además de que una orden puede contener varias variantes del mismo producto. La idea de elegir la compra como grano y no la orden completa (lo que vendría siendo el “ticket” de la compra) es facilitar la respuesta a la mayoría de las preguntas de negocio, como las preguntas de rentabilidad.
+
+Información adicional:
+- **costo_unitario** es un dato simulado: en la información original proporcionada no menciona un costo del producto como para obtener ganancia o margen de ganancia.
+- **estado_venta** se agregó para excluir ventas canceladas para que no influyan en el margen de ganancia posteriormente.
