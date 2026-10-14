@@ -1,0 +1,22 @@
+-- 10 productos, 2 variantes cada uno. [DIM_PRODUCTO]:
+INSERT INTO DIM_PRODUCTO (variante_id, sku, talla, color, nombre, categoria, coleccion, temporada, marca, costo_unitario) VALUES
+(1, 'SKU-0001', 'M', 'Negro', 'Camisa Oxford', 'Ropa', 'Verano 2026', 'Primavera-Verano', 'MU Basics', 270),
+(2, 'SKU-0002', 'L', 'Azul', 'Camisa Oxford', 'Ropa', 'Verano 2026', 'Primavera-Verano', 'MU Basics', 270),
+(3, 'SKU-0003', 'M', 'Negro', 'Playera Denim', 'Ropa', 'Denim Rebel', 'Primavera-Verano', 'MU Denim', 228),
+(4, 'SKU-0004', 'L', 'Azul', 'Playera Denim', 'Ropa', 'Denim Rebel', 'Primavera-Verano', 'MU Denim', 228),
+(5, 'SKU-0005', 'M', 'Negro', 'Chamarra Otoño', 'Ropa', 'Cápsula Otoño', 'Otoño-Invierno', 'MU Outwear', 720),
+(6, 'SKU-0006', 'L', 'Azul', 'Chamarra Otoño', 'Ropa', 'Cápsula Otoño', 'Otoño-Invierno', 'MU Outwear', 720),
+(7, 'SKU-0007', 'M', 'Negro', 'Pantalón Cargo', 'Ropa', 'Verano 2026', 'Primavera-Verano', 'MU Basics', 390),
+(8, 'SKU-0008', 'L', 'Azul', 'Pantalón Cargo', 'Ropa', 'Verano 2026', 'Primavera-Verano', 'MU Basics', 390),
+(9, 'SKU-0009', 'M', 'Negro', 'Tenis Runner', 'Calzado', 'Verano 2026', 'Primavera-Verano', 'MU Footwear', 540),
+(10, 'SKU-0010', 'L', 'Azul', 'Tenis Runner', 'Calzado', 'Verano 2026', 'Primavera-Verano', 'MU Footwear', 540),
+(11, 'SKU-0011', 'M', 'Negro', 'Bota Urbana', 'Calzado', 'Cápsula Otoño', 'Otoño-Invierno', 'MU Footwear', 810),
+(12, 'SKU-0012', 'L', 'Azul', 'Bota Urbana', 'Calzado', 'Cápsula Otoño', 'Otoño-Invierno', 'MU Footwear', 810),
+(13, 'SKU-0013', 'M', 'Negro', 'Bolso Tote', 'Accesorios', 'Denim Rebel', 'Primavera-Verano', 'MU Bags', 330),
+(14, 'SKU-0014', 'L', 'Azul', 'Bolso Tote', 'Accesorios', 'Denim Rebel', 'Primavera-Verano', 'MU Bags', 330),
+(15, 'SKU-0015', 'M', 'Negro', 'Gorra Streetwear', 'Accesorios', 'Cápsula Otoño', 'Otoño-Invierno', 'MU Streetwear', 132),
+(16, 'SKU-0016', 'L', 'Azul', 'Gorra Streetwear', 'Accesorios', 'Cápsula Otoño', 'Otoño-Invierno', 'MU Streetwear', 132),
+(17, 'SKU-0017', 'M', 'Negro', 'Vestido Ligero', 'Ropa', 'Verano 2026', 'Primavera-Verano', 'MU Femme', 348),
+(18, 'SKU-0018', 'L', 'Azul', 'Vestido Ligero', 'Ropa', 'Verano 2026', 'Primavera-Verano', 'MU Femme', 348),
+(19, 'SKU-0019', 'M', 'Negro', 'Abrigo Largo', 'Ropa', 'Cápsula Otoño', 'Otoño-Invierno', 'MU Outwear', 960),
+(20, 'SKU-0020', 'L', 'Azul', 'Abrigo Largo', 'Ropa', 'Cápsula Otoño', 'Otoño-Invierno', 'MU Outwear', 960);
