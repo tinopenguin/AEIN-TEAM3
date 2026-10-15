@@ -113,6 +113,7 @@ CREATE TABLE IF NOT EXISTS FACT_VENTAS(
 --    de caso especial no utilizaba el identificador 'sin_dato_periodo_anterior'.
 -- ============================================================================
 
+EXPLAIN
 WITH ventas_trimestrales_ia AS (
     SELECT
         sv.region,
