@@ -11,7 +11,7 @@
 -- de la carpeta 2/ (dim_canal.sql, dim_cliente.sql, dim_producto.sql,
 -- dim_sucursal_venta.sql, dim_sucursal_entrega.sql, dim_tiempo.sql, fact_ventas.sql)
 -- ============================================================================
-/*
+
 CREATE DATABASE IF NOT EXISTS moda_urbana;
 USE moda_urbana;
 
@@ -96,7 +96,7 @@ CREATE TABLE IF NOT EXISTS FACT_VENTAS(
     FOREIGN KEY (canal_key) REFERENCES DIM_CANAL(canal_key),
     FOREIGN KEY (fecha_key) REFERENCES DIM_TIEMPO(fecha_key)
 );
-*/
+
 
 -- ============================================================================
 -- PARTE 1: VERSIÓN INICIAL GENERADA POR LA IA (CONSERVADA COMO EVIDENCIA)
